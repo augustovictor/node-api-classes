@@ -1,5 +1,5 @@
 'use strict';
-const InvalidValueException = require('../exceptions/InvalidValueException');
+const InvalidValueException        = require('../exceptions/InvalidValueException');
 const InsufficientBalanceException = require('../exceptions/InsufficientBalanceException');
 
 module.exports = class Account {

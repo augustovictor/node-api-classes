@@ -2,7 +2,7 @@
 
 module.exports = class Customer {
     constructor(name, lastname) {
-        this.name = name;
+        this.name     = name;
         this.lastname = lastname;
     }
 
