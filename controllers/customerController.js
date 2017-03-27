@@ -1,6 +1,6 @@
 'use strict';
-const Customer = require('../models/customer');
-const Account  = require('../models/account');
+const Customer = require.main.require('./models/customer');
+const Account  = require.main.require('./models/account');
 
 module.exports.getAllCustomers = (req, res, next) => {
     res.status(200).send({customers: []});
