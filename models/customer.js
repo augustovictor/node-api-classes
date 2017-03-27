@@ -9,4 +9,5 @@ module.exports = class Customer {
     toString() {
         return `Customer: ${this.name} ${this.lastname}`;
     }
+    
 }
